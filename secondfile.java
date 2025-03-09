@@ -4,16 +4,13 @@ public class secondfile {
     public static void main(String arg[])
     {
         int arr[] = {1,2,3,4,5};
-        // int res[] = Reverse(arr,0,3);
-        // for(int i=0;i<res.length;i++)
-        // {
-        //     System.out.print(res[i]+" ");
-        // }
         int res[] = Reverse(arr, 2);
+        System.out.println("Deleting");
         for(int i=0;i<res.length;i++)
         {
             System.out.println(res[i]+" ");
         }
+
     }
     public static int[] Reverse(int arr[], int d)
     {
