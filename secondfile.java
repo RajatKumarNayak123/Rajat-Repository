@@ -5,10 +5,12 @@ public class secondfile {
     {
         int arr[] = {1,2,3,4,5};
         int res[] = Reverse(arr, 2);
+        System.out.println("Deleting");
         for(int i=0;i<res.length;i++)
         {
             System.out.println(res[i]+" ");
         }
+
     }
     public static int[] Reverse(int arr[], int d)
     {
